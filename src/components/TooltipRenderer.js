@@ -87,6 +87,8 @@ export default function TooltipRenderer(props) {
   // Or next items
   const hasNext = end < length;
 
+  console.log(datum, datum.primaryAxis);
+  
   return (
     <div>
       <div
